@@ -24,7 +24,7 @@
 3. 您好，在看Ray框架还有您的一篇文章，想问下Service Fabric在你给的架构图中是做什么用的，Service Fabric 没有怎么了解？是不是我不用也可以的，只是使用 Asp.Net Core 开发API 调用 Ray 层就可以了？
 
     答：
-    - ServiceFabric我了解不多，在项目中，我们的项目都部署在SF上。最后那个架构图是我们公司3.0系统的技术堆栈，想给大家了解一下Ray的使用位置。
+    - 在项目中，我们的项目都部署在SF上。最后那个架构图是我们公司3.0系统的技术堆栈，想给大家了解一下Ray的使用位置。
     - ServiceFabric不用也可以。Ray是一个Actor框架，Actor一般做服务层，客户端和宿主根据需求可以是控制台，WinForm，Asp.Net MVC,可以只使用 Asp.Net Core 开发API调用Actor的服务层。
     - 补充：ServiceFabric 中也有Actor，感兴趣可以了解一下。
 
