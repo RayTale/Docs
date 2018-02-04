@@ -3,7 +3,7 @@
 Grains are logical entities that always exist, virtually, and have stable logical identities (keys). Application code never creates or destroys grains. Instead, it acts as if all possible grains are always in memory and available for processing requests.
 
 注：
-- Grain是一直存在的逻辑实体，有稳定的逻辑标识(键)。应用程序代码永远不会创建或破坏Grain。相反，它的作用就好像所有可能的谷物都在内存中，对于处理请求，一直处于可用状态。
+- Grain是一直存在的逻辑实体，有稳定的逻辑标识(键)。应用程序代码永远不会创建或销毁Grain。相反，它的作用就好像所有可能的谷物都在内存中，对于处理请求，一直处于可用状态。
 - 永远假设Grain是活着的。
 
 Grains get physically instantiated, activated, by the Orleans runtime automatically on an as-needed to process incoming requests. After a grain has been idle for a certain amount of time, the Orleans runtime automatically removes, deactivates, it from memory.
